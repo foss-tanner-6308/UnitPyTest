@@ -1,4 +1,3 @@
-def wordcount():
-    s = str(input("Enter a string: "))
+def wordcount(s):
     count = len(s.split())
     return count
